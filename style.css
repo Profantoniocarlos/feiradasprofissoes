@@ -1,1 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.top-image {
+    width: 100%;
+    max-width: 564px;
+    height: 2560px;
+    background-image: url('sua-imagem-aqui.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.welcome-text {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    padding: 50px;
+    line-height: 1.2;
+}
+
+.accordion-container {
+    margin: 20px;
+}
+
+.accordion {
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 24px;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.panel p {
+    color: black;
+    font-size: 18px;
+    margin: 10px 0;
+}
 
