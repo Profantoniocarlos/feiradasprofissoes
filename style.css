@@ -21,7 +21,7 @@ body {
 .welcome-text {
     background-color: black;
     color: white;
-    font-size: clamp(16px, 2vw, 24px); /* Tamanho mínimo: 16px, ideal: 2vw, máximo: 24px */
+    font-size: clamp(16px, 2vw, 35px); /* Tamanho mínimo: 16px, ideal: 2vw, máximo: 35px */
     text-align: center;
     width: 100%;
 }
