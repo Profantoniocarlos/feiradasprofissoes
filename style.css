@@ -10,8 +10,12 @@ body {
 }
 
 .top-image {
-    display: flex;
-    justify-content: center;
+     display: block; /* Garante que a imagem seja tratada como um bloco */
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* A largura será ajustada conforme o tamanho da tela */
+    max-width: 100%; /* Limita o tamanho máximo da imagem à largura da tela */
+    height: auto; /* Mantém a proporção da altura conforme a largura */
 }
 
 .welcome-text {
