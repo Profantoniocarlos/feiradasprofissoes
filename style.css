@@ -21,10 +21,7 @@ body {
 .welcome-text {
     background-color: black;
     color: white;
-    text-align: center;
-    font-size: 100px;
-    padding: 50px;
-    line-height: 1.2;
+    font-size: clamp(16px, 2vw, 24px); /* Tamanho mínimo: 16px, ideal: 2vw, máximo: 24px */
 }
 
 .accordion-container {
