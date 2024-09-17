@@ -10,11 +10,8 @@ body {
 }
 
 .top-image {
-    width: 100%;
-    max-width: 564px;
-    height: 2560px;
-    background-position: center;
-    margin: 0 auto;
+    height: 80px;
+    padding: 12px 0;
 }
 
 .welcome-text {
