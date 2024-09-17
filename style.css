@@ -10,7 +10,7 @@ body {
 }
 
 .top-image {
-     display: block; /* Garante que a imagem seja tratada como um bloco */
+    display: block; /* Garante que a imagem seja tratada como um bloco */
     margin-left: auto;
     margin-right: auto;
     width: 100%; /* A largura será ajustada conforme o tamanho da tela */
